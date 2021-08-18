@@ -1,62 +1,57 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
+
 <head>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Work</title>
-    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <section id="app">
-    <h1>APPS</h1>
-    <div class="link"></div>
-        <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/3OqlnBXOZn8cSvSXVov3M0tLc-qUzto78WIyA5k-lVE/embed"></iframe>
-        <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/8lkrgkKddUScCtkCm4fM-cJRsGOnVw-GlcBMamYph7Q/embed"></iframe>
-        
-    
-    
-    </section>
-    <section id="game">
-    <h1>GAMES</h1>
-    <div class="link"></div>
-        <a href="https://studio.code.org/projects/spritelab/AN3Bo2xoyLDMzF8tCU1DsGA3fNTdjLhYCKvwKE3LIDc">
-        
-            <img src="download.png"></a>
-        <a href="https://studio.code.org/projects/spritelab/hJChk7DFrpvkxcxVXUYxbjs-2IWdGs5pq-aSG-N_DIk">
-        <img src="floatt.png"></a>
-        
-    
-    
-    </section>
-    <section id="Artist">
-    <h1>ARTISTS</h1>
-    <div class="link"></div>
-        <a href="https://studio.code.org/projects/artist/uaxdhvOZWELl6flJo2l_6CuPnak4RwulsUWG32FK7xo">
-        <img src="best.png"></a>
-        <a href="https://studio.code.org/projects/artist/dail4EpF4LnKoTwx8rBH0VjrEmUH2kf-Ae8O7hIqUx8">
-        <img src="number.png"></a>
-    
-    
-    </section>
-    <section id="chatbot">
-    <h1>CHATBOTS</h1>
-    <div class="link"></div>
-        <iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/3eeff53e-8209-4817-a6e7-a23b40e45774">
-</iframe>
-      <iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/21b29735-57d3-477e-a1f6-cdb4de5544e6">
-</iframe>
-      
-    
-    
-    </section>
+    <h3>
+        <center>
+            <ul class="menu1">
+                <li class="link"><a href="#home">Home</a></li>
+                <li class="link"><a href="#grid">Grid</a></li>
+                <li class="link"><a href="#slide">Slide</a></li>
+            </ul>
+        </center>
+    </h3>
+    <div class="container">
+        <section id="home">
+            <div class="pageheader"><img src="https://i.pinimg.com/originals/47/e8/6e/47e86e7b55c622836b0c9d87cd2ef20e.gif">
+            </div>
+        </section>
+
+        <section id="grid">
+            <h2>Grid Gallery</h2>
+            <div class="room">
+                <img class="img2" src="https://th.bing.com/th/id/OIP.3NyTN-OFJXN_iyrtHs6uFQHaII?pid=ImgDet&rs=1"><img class="img2" src="https://th.bing.com/th/id/OIP.3NyTN-OFJXN_iyrtHs6uFQHaII?pid=ImgDet&rs=1"><img class="img2" src="https://th.bing.com/th/id/OIP.3NyTN-OFJXN_iyrtHs6uFQHaII?pid=ImgDet&rs=1"><img class="img2" src="https://th.bing.com/th/id/OIP.3NyTN-OFJXN_iyrtHs6uFQHaII?pid=ImgDet&rs=1">
+            </div>
+            <div class="room">
+                <img class="img2" src="https://th.bing.com/th/id/OIP.3NyTN-OFJXN_iyrtHs6uFQHaII?pid=ImgDet&rs=1"><img class="img2" src="https://th.bing.com/th/id/OIP.3NyTN-OFJXN_iyrtHs6uFQHaII?pid=ImgDet&rs=1"><img class="img2" src="https://th.bing.com/th/id/OIP.3NyTN-OFJXN_iyrtHs6uFQHaII?pid=ImgDet&rs=1"><img class="img2" src="https://th.bing.com/th/id/OIP.3NyTN-OFJXN_iyrtHs6uFQHaII?pid=ImgDet&rs=1">
+            </div>
+        </section>
+        <section id="slide">
+            <h2>Sliding Gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item"> <img class="img-responsive" src="https://i.pinimg.com/originals/f5/4e/6d/f54e6daa11b72b514148c178c4b50610.gif" alt="Red" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Red Flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
 </body>
+
 </html>
